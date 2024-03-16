@@ -1364,10 +1364,10 @@ footer {
 /**************** media qury screen  *****************/
 /****************                    *****************/
 /* mobile-media */
-@media (min-width : 320px) and (max-width : 480px) {
-    body {
+@media (min-width : 0px) and (max-width : 568px) {
+    /* body {
         overflow: hidden;
-    }
+    } */
 
     .main-heaer {
         video {
