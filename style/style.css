@@ -405,7 +405,7 @@ header {
         color: white;
         position: absolute;
         z-index: 91;
-        width: 22em;
+        width: 33em;
         /* height: 30em; */
         left: 5em;
         top: 33%;
@@ -1365,9 +1365,9 @@ footer {
 /****************                    *****************/
 /* mobile-media */
 @media (min-width : 0px) and (max-width : 568px) {
-    body {
+    /* body {
         overflow: hidden;
-    }
+    } */
 
     .main-heaer {
         video {
@@ -1672,6 +1672,9 @@ footer {
             }
         }
      }
+     & .description-video {
+        width: 22em;
+    }
 
     footer {
         .content-linkes-footer {
