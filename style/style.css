@@ -1365,9 +1365,9 @@ footer {
 /****************                    *****************/
 /* mobile-media */
 @media (min-width : 0px) and (max-width : 568px) {
-    /* body {
+    body {
         overflow: hidden;
-    } */
+    }
 
     .main-heaer {
         video {
