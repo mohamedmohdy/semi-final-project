@@ -1,23 +1,27 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     height: 5em;
-    nav{
+
+    nav {
         background-color: transparent;
         height: 60px;
     }
 }
-body{
+
+body {
     background-color: #00031C;
 
-    main{
-        .paner-video{
+    main {
+        .paner-video {
             width: 100%;
             height: 6em;
-            video{
+
+            video {
                 object-fit: cover;
                 width: 100%;
                 height: 30em;
@@ -25,61 +29,71 @@ body{
                 position: static;
             }
         }
-        .change_source{
+
+        .change_source {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 0px 10px;
             color: white;
-           margin-top: 25em;
-           text-align: center;
-           .div-start{
-            border-radius: 5px;
-            padding: 5px;
-            background-color: #191C33;
-            width: 120px;
-           }
-           .div-focus{
-            i{
-                margin-right: 5px;
-            }
-            button{
-                padding: 5px;
-                color: white;
-                width: 70px;
-                background-color: #7B61FF;
+            margin-top: 25em;
+            text-align: center;
+
+            .div-start {
                 border-radius: 5px;
-                outline: none;
-                border: none;
-                transition: 0.5s all ease-in-out;
-            }
-           }
-           .div-not-focus{
-            button{
+                padding: 5px;
                 background-color: #191C33;
+                width: 120px;
             }
-           }
-           .div-focus{
-            button:hover{
-                background-color: #7B61FF;
-                cursor: pointer;
+
+            .div-focus {
+                i {
+                    margin-right: 5px;
+                }
+
+                button {
+                    padding: 5px;
+                    color: white;
+                    width: 70px;
+                    background-color: #7B61FF;
+                    border-radius: 5px;
+                    outline: none;
+                    border: none;
+                    transition: 0.5s all ease-in-out;
+                }
             }
-           }
+
+            .div-not-focus {
+                button {
+                    background-color: #191C33;
+                }
+            }
+
+            .div-focus {
+                button:hover {
+                    background-color: #7B61FF;
+                    cursor: pointer;
+                }
+            }
         }
 
-        .layout{
+        .layout {
             width: 100%;
             height: 100vh;
             background-color: #00031C;
             margin-top: 20px;
             padding-inline: 10px;
             display: flex;
-            .conten-left{
+
+            .conten-left {
                 width: 25%;
+                height: 90em;
                 background-color: #00031C;
-                height: 100%;
+                
+                
+
                 /* position: relative; */
-                img{
+                img {
                     border-radius: 10px;
                     width: 100%;
                     height: 70%;
@@ -88,113 +102,138 @@ body{
                     /* position: absolute; */
                     right: 0;
                 }
-                .action-buttons{
-                    .action-views{
+
+                .action-buttons {
+                    .action-views {
                         display: flex;
-                        div{
+
+                        div {
                             text-align: center;
-                            width: 33.33%; 
-                            button{
-                               width: 90%;
-                               background-color: #161934;
-                               color:white;
-                               padding: 7px;
-                               font-size: 14px;
-                               border: none;
-                               border-radius: 5px;
-                               transition: 0.5s all ease-in-out;
-                               i{
-                                padding-right: 5px;
+                            width: 33.33%;
+
+                            button {
+                                width: 90%;
+                                background-color: #161934;
+                                color: white;
+                                padding: 7px;
+                                font-size: 14px;
+                                border: none;
+                                border-radius: 5px;
+                                transition: 0.5s all ease-in-out;
+
+                                i {
+                                    padding-right: 5px;
                                 }
                             }
-                            button:hover{
+
+                            button:hover {
                                 background-color: #7B61FF;
                                 cursor: pointer;
                             }
                         }
                     }
                 }
-                .action-dawnload{
-                    button{
+
+                .action-dawnload {
+                    button {
                         width: 100%;
                         background-color: #161934;
-                        color:white;
+                        color: white;
                         padding: 15px;
                         font-size: 17px;
                         border: none;
                         border-radius: 5px;
                         transition: 0.5s all ease-in-out;
                         margin-top: 15px;
-                        i{
-                         padding-right: 5px;
-                         }
+
+                        i {
+                            padding-right: 5px;
+                        }
                     }
-                    button:hover{
+
+                    button:hover {
                         background-color: #7B61FF;
                         cursor: pointer;
                     }
                 }
             }
-            .content-body{
-                color:white;
-                width:75% ;
+
+            .content-body {
+                color: white;
+                width: 75%;
+                height: 90em;
                 background-color: #00031C;
                 padding: 10px 50px;
-                h1{
+
+                h1 {
                     font-size: 50px;
                     margin-bottom: 15px;
                 }
-               .rating-video{
-                margin-bottom: 10px;
-                display: flex;
-                gap: 0px 15px;
-                .icon-star{
-                    color: #7A60FD;
+
+                .rating-video {
+                    margin-bottom: 10px;
+                    display: flex;
+                    gap: 0px 15px;
+
+                    .icon-star {
+                        color: #7A60FD;
+                    }
+
+                    .views {
+                        display: flex;
+                        gap: 0px 10px
+                    }
                 }
-                .views{
-                   display: flex;
-                   gap: 0px 10px
+
+                .numper-info {
+                    display: flex;
+                    align-items: center;
+                    gap: 0px 10px;
+                    margin-bottom: 10px;
+
+                    span {
+                        color: rgb(185, 185, 185)
+                    }
+
+                    .grop {
+                        padding: 5px;
+                        font-size: 13px;
+                        color: white;
+                        background-color: #191C33;
+                    }
                 }
-               }
-               .numper-info{
-                display: flex;
-                align-items: center;
-                gap: 0px 10px;
-                margin-bottom: 10px;
-                span{
-                    color:rgb(185, 185, 185)
+
+                .type {
+                    margin-bottom: 10px;
+
+                    span {
+                        color: rgb(185, 185, 185)
+                    }
                 }
-                .grop{
-                    padding: 5px;
-                    font-size: 13px;
-                    color: white;
-                    background-color: #191C33;
-                }
-               }
-               .type{
-                margin-bottom: 10px;
-                span{
-                    color:rgb(185, 185, 185)
-                }
-                }
-                .description-title{
-                    color:rgb(185, 185, 185);
+
+                .description-title {
+                    color: rgb(185, 185, 185);
                     margin-bottom: 10px;
                     font-size: 20px;
                 }
-                .cast , .crew{
+
+                .cast,
+                .crew {
                     margin: 10px 0px;
                     font-size: 22px;
                 }
-                .description-video-john{
+
+                .description-video-john {
                     border-bottom: 1px solid rgba(255, 255, 255, 0.192);
                 }
-                .main-layout{
-                    background-color:#00031C ;
+
+                .main-layout {
+                    background-color: #00031C;
                     padding: 0px;
-                    .video-trending-move{
-                        .move{
-                            img{
+
+                    .video-trending-move {
+                        .move {
+                            img {
                                 width: 250px;
                                 height: 350px;
                             }
@@ -202,7 +241,104 @@ body{
                     }
                 }
                 
-           }
+                .qoute-video{
+                    color:white;
+                    margin: 30px 0px;
+                    span{
+                        color:rgb(180, 179, 179);
+                        margin: 20px 0px;
+                    }
+                }
+
+                .info-input-and-rating{
+                    span{
+                        font-size: 20px;
+                    }
+                    .icon{
+                        margin: 10px 0px;
+                    }
+                }
+                .input-date{
+                    width: 100%;
+                    form{
+                        .input-review{
+                            display: flex;
+                            flex-direction: column;
+                            label{
+                                font-size: 18px;
+                            }
+                            input{
+                                height: 80px;
+                                border-radius: 9px;
+                                border: none;
+                                margin: 10px 0px;
+                                background-color: #191C33;
+                                font-size: 18px;
+                                color:white;
+                                padding: 0px 10px;
+                            }
+                        }
+                        .real-date-user{
+                            display: flex;
+                            margin-top: 5px;
+                            align-items: center;
+                            justify-content: space-between;
+                           
+                            width: 100%;
+                            .div{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-between;
+                                width: 100%;
+                                label{
+                                    font-size: 18px;
+                                }
+                                input{
+                                    width: 95%;
+                                    height: 50px;
+                                    margin-top: 10px;
+                                    border-radius: 9px;
+                                    border: none;
+                                    background-color: #191C33;
+                                    font-size: 18px;
+                                    color:white;
+                                    padding: 0px 10px;
+                                }
+                            }
+                            margin-bottom: 10px;
+                        }
+                        button{
+                            background: linear-gradient(248.28deg, #9e61ff 9.539999999999999%, rgba(142, 97, 255, 0) 32.8%), radial-gradient(81.70999999999999% 279.87% at -16.57% -92%, #619bff 28.69%, rgba(205, 219, 248, 0) 69.54000000000001%), #6c52ee;
+                            color: #ffffff;
+                            border: 0;
+                            padding-top: 15px;
+                            padding-right: 31px;
+                            padding-bottom: 15px;
+                            padding-left: 31px;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 20px;
+                            position: relative;
+                            overflow: hidden;
+                            display: inline-block;
+                            transition: .2s ease;
+                            border-radius: 10px;
+                            margin-top: 20px;
+                            transition: 0.5s all ease-in-out;
+                        }
+                        button:hover{
+                            cursor: pointer;
+                            transform: translatey(-10px);
+                        }
+                    }
+                }
+
+            }
         }
+    }
+
+    footer{
+       margin-top: 52em;
+        
     }
 }
