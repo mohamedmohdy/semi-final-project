@@ -138,7 +138,7 @@ body{
             .content-body{
                 color:white;
                 width:75% ;
-                background-color: black;
+                background-color: #00031C;
                 padding: 10px 50px;
                 h1{
                     font-size: 50px;
@@ -176,13 +176,33 @@ body{
                 span{
                     color:rgb(185, 185, 185)
                 }
-            }
-            .description-title{
-                color:rgb(185, 185, 185);
-                margin-bottom: 10px;
-
-            }
-            }
+                }
+                .description-title{
+                    color:rgb(185, 185, 185);
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                }
+                .cast , .crew{
+                    margin: 10px 0px;
+                    font-size: 22px;
+                }
+                .description-video-john{
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.192);
+                }
+                .main-layout{
+                    background-color:#00031C ;
+                    padding: 0px;
+                    .video-trending-move{
+                        .move{
+                            img{
+                                width: 250px;
+                                height: 350px;
+                            }
+                        }
+                    }
+                }
+                
+           }
         }
     }
 }
