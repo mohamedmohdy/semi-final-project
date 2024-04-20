@@ -1,0 +1,13 @@
+.contanir-content-header{
+    width: 100%;
+    height: 125vh;
+    background-image: url("../../images/recomended/Escape-to-the-Farm-630x400.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
